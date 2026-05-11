@@ -1,0 +1,21 @@
+Meta.DisplayName=Luna Multiplayer (KSP)
+Meta.Description=Luna Multiplayer dedicated server for Kerbal Space Program
+Meta.Arch=x86_64
+Meta.Author=Community
+Meta.URL=https://github.com/LunaMultiplayer/LunaMultiplayer
+Meta.MinAMPVersion=2.4.6.6
+
+App.AdminMethod=STDIO
+App.HasReadableConsole=true
+App.HasWritableConsole=true
+App.DisplayName=Luna Multiplayer (KSP)
+App.LinuxExecutable=dotnet
+App.CommandLineArgs=Server.dll
+App.WorkingDirectory=serverfiles
+App.BaseDirectory=.
+App.ExitMethod=CtrlC
+App.ApplicationReadyMode=Immediate
+App.ApplicationIPBinding=0.0.0.0
+App.PrimaryApplicationPortRef=GamePort1
+
+Console.AppReadyRegex=Server started successfully|Listening for connections|Luna Server version
