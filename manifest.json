@@ -1,10 +1,7 @@
 {
-    "id": "7fde8aa7-f679-439c-8624-a53dafd30ad5",
-    "authors": [
-        "Community - Made with AMP Config Generator"
-    ],
-    "origin": "https://github.com/Community - Made with AMP Config Generator/AMPTemplates.git",
-    "url": "https://github.com/Community - Made with AMP Config Generator/AMPTemplates",
-    "imagefile": "",
-    "prefix": "Community - Made with AMP Config Generator"
+  "name": "My Custom Templates",
+  "description": "Custom templates for Luna Multiplayer and others",
+  "templates": [
+    "lmp.kvp"
+  ]
 }
