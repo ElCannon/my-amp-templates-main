@@ -1,1 +1,6 @@
-[]
+{
+  "Name": "Luna Multiplayer (KSP)",
+  "Description": "Luna Multiplayer dedicated server for Kerbal Space Program",
+  "AppConfigId": "39fc840d-8fad-4a37-9cdf-0f609221ebed",
+  "Settings": []
+}
